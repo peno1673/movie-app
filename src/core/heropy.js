@@ -45,6 +45,8 @@ function routeRender(routes) {
   // 3) 화면 출력 후 스크롤 위치 복구!
   window.scrollTo(0, 0)
 }
+
+
 export function createRouter(routes) {
   // 원하는(필요한) 곳에서 호출할 수 있도록 함수 데이터를 반환!
   return function () {
